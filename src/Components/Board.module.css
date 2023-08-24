@@ -1,0 +1,27 @@
+.board {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.winner {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.resetButton {
+  margin-top: 20px;
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.resetButton:active {
+  box-shadow: 0 -10px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
